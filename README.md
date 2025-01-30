@@ -11,7 +11,7 @@ source .venv/bin/activate (Linux)
 pip install -r requirements.txt
 ```
 
-Edite o arquivo `.env` com as informações necessárias. Exemplo:
+Renomeie o arquivo `.env.example` para `.env` e adicione o webhook do seu canal do Discord.
 ```
 DISCORD_WEBHOOK=https://discord.com/api/webhooks/1234567890/ABCDEFGHIJKLMN
 ```
