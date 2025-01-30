@@ -57,11 +57,18 @@ python main.py
 ```
 
 ## Observações
-- O arquivo `.env` não deve ser versionado.
+- Este é um simples script para fins educacionais, não está otimizado (uso de POO, bibliotecas, módulos e etc) e não deve ser usado em produção.
+- O arquivo `.env` não deve ser versionado (enviado ao git), pois contém informações sensíveis.
 - O arquivo `database.db` é a base de dados sqlite3.
 - O arquivo `main.py` é o script principal.
 - O arquivo `.gitignore` contém os arquivos e diretórios que não devem ser versionados.
 - O arquivo `requirements.txt` contém as dependências do projeto.
 - O diretório `.venv` é o ambiente virtual do Python.
-- É interessante adicionar o script em um cronjob/timer para rodar automaticamente a cada 30 minutos por exemplo, para verificar se houve atualização na página.
-- Este é um simples script para fins educacionais, não está otimizado (uso de POO, bibliotecas, módulos e etc) e não deve ser usado em produção.
+
+## Sugestões de melhorias
+- Adicionar instruções de como criar um webhook no Discord
+- Adicionar um sistema de log
+- Adicionar um sistema de tratamento de erros
+- Adicionar tolerância a falhas de conexão (retentativas)
+- Adicionar um script de execução automática (cronjob), para rodar o script principal em intervalos de tempo
+- Configurar o User-Agent da requests para identificar o script e evitar bloqueios
