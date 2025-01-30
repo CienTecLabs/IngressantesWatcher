@@ -63,4 +63,5 @@ python main.py
 - O arquivo `.gitignore` contém os arquivos e diretórios que não devem ser versionados.
 - O arquivo `requirements.txt` contém as dependências do projeto.
 - O diretório `.venv` é o ambiente virtual do Python.
+- É interessante adicionar o script em um cronjob/timer para rodar automaticamente a cada 30 minutos por exemplo, para verificar se houve atualização na página.
 - Este é um simples script para fins educacionais, não está otimizado (uso de POO, bibliotecas, módulos e etc) e não deve ser usado em produção.
